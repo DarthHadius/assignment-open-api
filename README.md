@@ -1,3 +1,9 @@
+Endpoint: <a href="localhost:3000/dictionary/Happy">localhost:3000/dictionary/Happy</a>
+<p align="center">
+  <a href="#"><img src="./DOCAPI/Screenshot 2025-01-12 182823.png" alt="Nest Logo" /></a>
+</p>
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
