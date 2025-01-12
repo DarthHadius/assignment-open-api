@@ -5,13 +5,11 @@ import { DictionaryService } from './dictionary.service';
 export class DictionaryController {
   constructor(private readonly dictionaryService: DictionaryService) {}
 
-  // Endpoint to fetch word data
   @Get(':word')
   async getWord(@Param('word') word: string) {
     try {
       const wordData = await this.dictionaryService.getWordData(word);
 
-      // Extracting basic data from the API response
       const wordInfo = {
         word: wordData[0]?.word,
         meaning: wordData[0]?.meanings[0]?.definitions[0]?.definition,
